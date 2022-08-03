@@ -10,8 +10,6 @@ export function App() {
   const [neutral, setNeutral] = useState(0);
   const [bad, setBad] = useState(0);
 
-  console.log(`Hooks in You`);
-
   const options = {
     good: good,
     neutral: neutral,
